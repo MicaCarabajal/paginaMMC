@@ -49,8 +49,12 @@
   }
 }
 @media (max-width: 767px) {
+  body {
+    overflow-x: hidden;
+  }
+
   .navbar .img-logo {
-    width: 6%;
+    width: 12%;
   }
 
   .servicios .titulo-servicio {
