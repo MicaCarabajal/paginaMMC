@@ -1,0 +1,291 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&display=swap");
+body {
+  background-color: #EBF1FF;
+  overflow-x: hidden;
+}
+
+.navbar .img-logo {
+  width: 4%;
+  margin-left: 25px;
+}
+.navbar .navbar-nav .nav-link {
+  font-family: "Caveat Brush", cursive;
+  color: #90A7DC !important;
+  font-size: 25px;
+  padding-right: 1.5rem !important;
+  padding-left: 1.5rem !important;
+  transition: 0.5s;
+}
+.navbar .navbar-nav .nav-link:hover {
+  transform: translateY(5px);
+}
+
+header .principal {
+  background-image: url(../img/photo-1496167117681-944f702be1f4.jpeg);
+  background-size: cover;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  width: 101.4%;
+}
+header .principal .img-web {
+  display: block;
+  margin: auto auto;
+  width: 80%;
+}
+
+.servicios .ola-arriba {
+  width: 100%;
+}
+.servicios .titulo-servicio {
+  font-size: 60px;
+  font-family: "Caveat Brush", cursive;
+  color: #90A7DC;
+  text-align: center;
+  margin: 25px;
+}
+.servicios .col-md-3 .img-humo1 {
+  float: left;
+}
+.servicios .col-md-3 .img-humo2 {
+  float: right;
+}
+.servicios .subtitulo-servicio {
+  font-family: "Nanum Brush Script", cursive;
+  color: #90A7DC;
+  text-align: center;
+  font-size: 40px;
+}
+.servicios .card {
+  margin: auto auto;
+  background-color: #D8E4FF;
+  border-radius: 50px;
+  border: 5px solid #90A7DC;
+  -webkit-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.5);
+  -moz-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.5);
+  box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.5);
+}
+.servicios .card .card-body .img-diseño {
+  margin-left: 20px;
+  width: 50px;
+}
+.servicios .card .card-body .card-title {
+  text-align: center;
+  display: inline-block;
+  color: #90A7DC;
+  font-family: "Caveat Brush", cursive;
+  font-size: 30px;
+}
+.servicios .card .card-body .card-text {
+  color: #90A7DC;
+  font-family: "Caveat Brush", cursive;
+  font-size: 25px;
+}
+.servicios .card .card-body .espacio {
+  padding: 50px 0 60px 0;
+}
+
+.contacto {
+  background-image: url(../img/photo-1496167117681-944f702be1f4.jpeg);
+  background-size: cover;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  width: 101.4%;
+}
+.contacto .titulo-contacto {
+  font-size: 65px;
+  font-family: "Caveat Brush", cursive;
+  color: #90A7DC;
+  text-align: center;
+  margin: 25px;
+}
+.contacto .img-contacto {
+  display: inline-block;
+  width: 80%;
+  padding-left: 15px;
+}
+.contacto .boton {
+  display: flex;
+  justify-content: center;
+}
+.contacto .boton .btn {
+  background-color: #90A7DC;
+  font-family: "Caveat Brush", cursive;
+  font-size: 20px;
+  border-radius: 50px;
+  border: 3px solid #D8E4FF;
+  -webkit-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.5);
+  -moz-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.5);
+  box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.5);
+}
+.contacto .img-ola-abajo {
+  width: 100%;
+}
+
+.footer {
+  background-color: #EBF1FF;
+}
+.footer .logo .logo-footer {
+  display: block;
+  width: 5%;
+  margin: auto auto;
+}
+.footer .lista-menu {
+  display: block;
+  text-align: center;
+  padding-top: 20px;
+  margin-right: 50px;
+}
+.footer .footer-menu a {
+  font-family: "Caveat Brush", cursive;
+  color: #90A7DC !important;
+  font-size: 25px;
+}
+.footer .redes {
+  text-align: center;
+}
+.footer .redes .img-logo-redes {
+  display: inline-block;
+  width: 2%;
+  margin: 5px;
+}
+.footer .texto-final {
+  font-family: "Caveat Brush", cursive;
+  color: #90A7DC !important;
+  font-size: 20px;
+  text-align: center;
+  margin: 20px;
+}
+
+@media only screen and (max-width: 480px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .navbar .img-logo {
+    width: 12%;
+  }
+  .navbar .navbar-nav .nav-link {
+    font-size: 20px;
+  }
+
+  header .principal {
+    width: 104.1%;
+  }
+
+  .servicios .titulo-servicio {
+    font-size: 50px;
+  }
+  .servicios .col-md-3 .img-humo1 {
+    display: none;
+  }
+  .servicios .col-md-3 .img-humo2 {
+    display: none;
+  }
+  .servicios .subtitulo-servicio {
+    padding: 15px;
+    font-size: 35px;
+  }
+  .servicios .card {
+    margin-bottom: 10px;
+  }
+
+  .contacto {
+    width: 104.1%;
+  }
+  .contacto .titulo-contacto {
+    font-size: 50px;
+  }
+  .contacto .formulario {
+    margin: 10px;
+  }
+
+  .footer .logo .logo-footer {
+    width: 14%;
+  }
+  .footer .redes .img-logo-redes {
+    width: 8%;
+  }
+}
+@media (max-width: 767px) {
+  .navbar .img-logo {
+    width: 6%;
+  }
+
+  .servicios .titulo-servicio {
+    font-size: 52px;
+  }
+  .servicios .col-md-3 .img-humo1 {
+    display: none;
+  }
+  .servicios .col-md-3 .img-humo2 {
+    display: none;
+  }
+  .servicios .subtitulo-servicio {
+    padding: 15px;
+    font-size: 35px;
+  }
+  .servicios .card {
+    margin-bottom: 10px;
+  }
+
+  .contacto {
+    width: 102.1%;
+  }
+  .contacto .titulo-contacto {
+    font-size: 52px;
+  }
+  .contacto .formulario {
+    margin: 30px;
+  }
+
+  .footer .logo .logo-footer {
+    width: 9%;
+  }
+  .footer .redes .img-logo-redes {
+    width: 5%;
+  }
+}
+@media (min-width: 768px) and (max-width: 1200px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .navbar .img-logo {
+    width: 6%;
+  }
+
+  .servicios .titulo-servicio {
+    font-size: 52px;
+  }
+  .servicios .col-md-3 .img-humo1 {
+    display: none;
+  }
+  .servicios .col-md-3 .img-humo2 {
+    display: none;
+  }
+  .servicios .subtitulo-servicio {
+    padding: 15px;
+    font-size: 35px;
+  }
+  .servicios .card {
+    margin-bottom: 10px;
+  }
+
+  .contacto {
+    width: 102.1%;
+  }
+  .contacto .titulo-contacto {
+    font-size: 52px;
+  }
+
+  .footer .logo .logo-footer {
+    width: 8%;
+  }
+  .footer .redes .img-logo-redes {
+    width: 4%;
+  }
+}
+
+/*# sourceMappingURL=estilos.css.map */

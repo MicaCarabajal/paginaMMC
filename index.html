@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/estilos.css">
+  <title>MMC</title>
+  <link rel="icon" type="image/png" href="img/pixlr-bg-result.png">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <img class="img-logo" src="img/pixlr-bg-result.png" alt="logo">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+      aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav ml-auto ">
+        <a class="nav-link" href="#inicio">Inicio</a>
+        <a class="nav-link" href="#servicios">Servicios</a>
+        <a class="nav-link" href="#contacto">Contacto</a>
+      </div>
+    </div>
+  </nav>
+  <header id="inicio" data-aos="flip-up">
+    <div class="row principal">
+      <div class="col-md-12">
+        <img class="img-web" data-aos="flip-down" data-aos-delay="800" src="img/undraw_web_development_w2vv.svg"
+          alt="web developer">
+      </div>
+    </div>
+  </header>
+
+
+  <section class="servicios" id="servicios" data-aos="zoom-in-down">
+    <img class="ola-arriba" src="img/ola-arriba.png" alt="ola">
+    <div class="row">
+      <div class="col-md-12">
+        <h2 class="titulo-servicio" data-aos="zoom-in-up" data-aos-delay="1100">Servicios</h2>
+      </div>
+      <div class="col-md-3">
+        <img class="img-humo1" src="img/humo.png" alt="Humo" data-aos="zoom-in-left" data-aos-delay="800"
+          data-aos-duration="1000">
+      </div>
+      <div class="col-md-6">
+        <h2 class="titulo-servicio" data-aos="zoom-in-down" data-aos-delay="1500">Tu página web en buenas manos</h2>
+        <h3 class="subtitulo-servicio" data-aos="zoom-in-up" data-aos-delay="1800">Te ayudo a tener tu propia pagina web
+          para que tus servicios u productos exploten
+          de creatividad</h3>
+      </div>
+      <div class="col-md-3">
+        <img class="img-humo2" src="img/humo.png" alt="Humo" data-aos="zoom-in-right" data-aos-delay="800"
+          data-aos-duration="1500">
+      </div>
+      <div class="col-md-6">
+        <div class="card" style="width: 18rem;" data-aos="flip-left" data-aos-delay="1000" data-aos-duration="1000">
+          <div class="card-body">
+            <img class="img-diseño" src="img/diseno.png" alt="Logo diseño">
+            <h5 class="card-title" data-aos="slide-down" data-aos-delay="2000" data-aos-duration="1200">Diseño web</h5>
+            <p class="card-text">Realizo un diseño atractivo y de alto impacto a tu futura página web.
+              Me adapto a lo que el cliente requiera para su página.
+              Si el cliente tiene una página existente, se realiza un rediseño del mismo.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card" style="width: 18rem;" data-aos="flip-right" data-aos-delay="1000" data-aos-duration="1000">
+          <div class="card-body">
+            <img class="img-diseño" src="img/desarrollo-web (1).png" alt="Logo diseño">
+            <h5 class="card-title" data-aos="slide-down" data-aos-delay="2000" data-aos-duration="1000">Desarrollo web
+            </h5>
+            <p class="card-text espacio">Desarrollo lo que se presenta en el diseño y se realiza un responsive, para que
+              tu página web se adapte a cualquier dispositivo.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <img src="img/ola-abajo.svg" alt="ola">
+  </section>
+
+  <section class="row contacto" id="contacto" data-aos="fade-up" data-aos-delay="1000">
+    <div class="col-md-12">
+      <h2 class="titulo-contacto" data-aos="zoom-in-up" data-aos-delay="1100">Contacto</h2>
+    </div>
+    <div class="col-md-6 topmargin-sm">
+      <img class="img-contacto" src="img/undraw_proud_coder_7ain.svg" alt="imagen de contacto" data-aos="slide-right"
+        data-aos-delay="1500" data-aos-duration="1000">
+    </div>
+    <div class="col-md-6 topmargin-sm formulario" data-aos="slide-left" data-aos-delay="1500" data-aos-duration="1000">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="form-group">
+            <input type="text" class="form-control" id="nombre" placeholder="Nombre" name="Nombre">
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="form-group">
+            <input type="text" class="form-control" id="apellidos" placeholder="Apellido" name="Apellido">
+          </div>
+        </div>
+        <div class="col-md-12">
+          <div class="form-group">
+            <input type="email" class="form-control" id="email" placeholder="Email" name="Email">
+          </div>
+        </div>
+
+        <div class="col-md-12">
+          <div class="form-group">
+            <input type="text" class="form-control" id="servicio" placeholder="Servicio solicitado"
+              name="Servicio solicitado">
+          </div>
+        </div>
+
+        <div class="col-md-12">
+          <div class="form-group">
+            <textarea class="form-control" id="Consulta" placeholder="Consulta" name="Consulta"></textarea>
+          </div>
+        </div>
+        <div class="col-md-12 boton">
+          <a class="btn full-width text-white">Haz tu consulta</a>
+        </div>
+      </div>
+    </div>
+    <img class="img-ola-abajo" src="img/ola2.png" alt="ola">
+  </section>
+
+  <footer class="footer" data-aos="flip-left" data-aos-delay="800" data-aos-duration="1000">
+    <div class="logo">
+      <img class="logo-footer" src="img/pixlr-bg-result.png" alt="logo" data-aos="flip-up" data-aos-delay="1500"
+        data-aos-duration="1000">
+    </div>
+    <ul class="lista-menu" data-aos="flip-down" data-aos-delay="2000" data-aos-duration="1000">
+      <li class="list-inline-item footer-menu"><a href="#inicio">Inicio</a></li>
+      <li class="list-inline-item footer-menu"><a href="#servicios">Servicios</a></li>
+      <li class="list-inline-item footer-menu"><a href="#contacto">Contacto</a></li>
+    </ul>
+    <div class="redes">
+      <a href="https://www.instagram.com/mmc.web/" target="_blank"><img class="img-logo-redes insta"
+          src="img/instagram_logo_icon_181738.png" alt="Logo de instragram"></a>
+      <a href="mailto:mmcwebcontent@gmail.com" target="_blank"><img class="img-logo-redes"
+          src="img/email_mail_envelope_message_icon_181521.png" alt="Logo de correo"></a>
+    </div>
+    <p class="texto-final">Desarrollado por MMC.</p>
+  </footer>
+
+
+
+
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+  </script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script src="js/main.js"></script>
+</body>
+</html>

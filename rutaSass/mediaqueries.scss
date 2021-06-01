@@ -1,0 +1,155 @@
+@media only screen and(max-width: 480px) {
+    body {
+        overflow-x: hidden;
+    }
+    .navbar {
+        .img-logo {
+            width: 12%;
+        }
+        .navbar-nav .nav-link {
+            font-size: 20px;
+        }
+    }
+    header {
+        .principal {
+            width: 104.1%;
+        }
+    }
+
+    .servicios {
+        .titulo-servicio {
+            font-size: 50px;
+        }
+        .col-md-3 .img-humo1 {
+            display: none;
+        }
+        .col-md-3 .img-humo2 {
+            display: none;
+        }
+        .subtitulo-servicio {
+            padding: 15px;
+            font-size: 35px;
+        }
+        .card {
+            margin-bottom: 10px;
+        }
+    }
+
+    .contacto {
+        width: 104.1%;
+        .titulo-contacto {
+            font-size: 50px;
+        }
+        .formulario {
+            margin: 10px;
+        }
+    }
+    
+   .footer {
+        .logo {
+            .logo-footer {
+                width: 14%;
+            }
+        }
+        .redes {
+            .img-logo-redes {
+                width: 8%;
+            }
+        }
+    
+   }
+}
+@media (max-width: 767px) {
+    .navbar {
+        .img-logo {
+            width: 6%;
+        }
+    }
+    .servicios {
+        .titulo-servicio {
+            font-size: 52px;
+        }
+        .col-md-3 .img-humo1 {
+            display: none;
+        }
+        .col-md-3 .img-humo2 {
+            display: none;
+        }
+        .subtitulo-servicio {
+            padding: 15px;
+            font-size: 35px;
+        }
+        .card {
+            margin-bottom: 10px;
+        }
+    }
+    .contacto {
+        width: 102.1%;
+        .titulo-contacto {
+            font-size: 52px;
+        }
+        .formulario {
+            margin: 30px;
+        }
+    }
+    .footer {
+        .logo {
+            .logo-footer {
+                width: 9%;
+            }
+        }
+        .redes {
+            .img-logo-redes {
+                width: 5%;
+            }
+        }
+    
+   }
+}
+@media (min-width: 768px)  and (max-width: 1200px){
+    body {
+        overflow-x: hidden;
+    };
+    .navbar {
+        .img-logo {
+            width: 6%;
+        }
+    }
+    .servicios {
+        .titulo-servicio {
+            font-size: 52px;
+        }
+        .col-md-3 .img-humo1 {
+            display: none;
+        }
+        .col-md-3 .img-humo2 {
+            display: none;
+        }
+        .subtitulo-servicio {
+            padding: 15px;
+            font-size: 35px;
+        }
+        .card {
+            margin-bottom: 10px;
+        }
+    }
+    .contacto {
+        width: 102.1%;
+        .titulo-contacto {
+            font-size: 52px;
+        }
+    }
+    .footer {
+        .logo {
+            .logo-footer {
+                width: 8%;
+            }
+        }
+        .redes {
+            .img-logo-redes {
+                width: 4%;
+            }
+        }
+    
+   }
+}
